@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>USER DETAIL FORM</h1><hr>
+    <form action="/contact-me"><!--action is used to store the data submitted by user on a server-->
+        <label for="username">UserName:</label>
+        <input type="text" id="username" placeholder="enter" required="true" name="UserName"><br>
+        <label for="Password">UserPassword:</label>
+        <input type="password" id="Password" placeholder="enter" required="true"><br>
+        <label for="dateofbirth">D.O.B:</label>
+        <input type="date" id="dateofbirth"><br>
+        <label for="file">File:</label>
+        <input type="file" id="file"><br>
+        Color: <input type="color"><br>
+        Price Range: <input type="range"><br>
+        Button: <input type="button" value="click here"><br>
+        <h4>Sex</h4>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+        <h4>Language</h4>
+        <label for="c">C</label>
+        <input type="checkbox" id="c" name="language" value="c"><br>
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="language" value="java"><br>
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="language" value="python"><br>
+        <br><label for="country">Select your Country</label>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="other">other</option>
+        </select><br>
+        <br><textarea name="story" id="story" cols="30" rows="4">
+        Write your Review
+        </textarea><br>
+        <br><input type="submit">
+    </form>
+</body>
+</html> 
